@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8C6939214FA660F001D820C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C6939114FA660F001D820C /* UIKit.framework */; };
+		F8C6939414FA660F001D820C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C6939314FA660F001D820C /* Foundation.framework */; };
+		F8C6939614FA660F001D820C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C6939514FA660F001D820C /* CoreGraphics.framework */; };
+		F8C6939814FA660F001D820C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8C6939714FA660F001D820C /* CoreData.framework */; };
+		F8C6939E14FA6610001D820C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8C6939C14FA6610001D820C /* InfoPlist.strings */; };
+		F8C693A014FA6610001D820C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C6939F14FA6610001D820C /* main.m */; };
+		F8C693A414FA6610001D820C /* BRAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C693A314FA6610001D820C /* BRAAppDelegate.m */; };
+		F8C693A714FA6610001D820C /* Venus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8C693A514FA6610001D820C /* Venus.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8C6938D14FA660F001D820C /* Venus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C6939114FA660F001D820C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F8C6939314FA660F001D820C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F8C6939514FA660F001D820C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F8C6939714FA660F001D820C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F8C6939B14FA660F001D820C /* Venus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Venus-Info.plist"; sourceTree = "<group>"; };
+		F8C6939D14FA6610001D820C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8C6939F14FA6610001D820C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F8C693A114FA6610001D820C /* Venus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Venus-Prefix.pch"; sourceTree = "<group>"; };
+		F8C693A214FA6610001D820C /* BRAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BRAAppDelegate.h; sourceTree = "<group>"; };
+		F8C693A314FA6610001D820C /* BRAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRAAppDelegate.m; sourceTree = "<group>"; };
+		F8C693A614FA6610001D820C /* Venus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Venus.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C6938A14FA660F001D820C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C6939214FA660F001D820C /* UIKit.framework in Frameworks */,
+				F8C6939414FA660F001D820C /* Foundation.framework in Frameworks */,
+				F8C6939614FA660F001D820C /* CoreGraphics.framework in Frameworks */,
+				F8C6939814FA660F001D820C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C6938214FA660F001D820C = {
+			isa = PBXGroup;
+			children = (
+				F8C6939914FA660F001D820C /* Venus */,
+				F8C6939014FA660F001D820C /* Frameworks */,
+				F8C6938E14FA660F001D820C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C6938E14FA660F001D820C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6938D14FA660F001D820C /* Venus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C6939014FA660F001D820C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6939114FA660F001D820C /* UIKit.framework */,
+				F8C6939314FA660F001D820C /* Foundation.framework */,
+				F8C6939514FA660F001D820C /* CoreGraphics.framework */,
+				F8C6939714FA660F001D820C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8C6939914FA660F001D820C /* Venus */ = {
+			isa = PBXGroup;
+			children = (
+				F8C693A214FA6610001D820C /* BRAAppDelegate.h */,
+				F8C693A314FA6610001D820C /* BRAAppDelegate.m */,
+				F8C693A514FA6610001D820C /* Venus.xcdatamodeld */,
+				F8C6939A14FA660F001D820C /* Supporting Files */,
+			);
+			path = Venus;
+			sourceTree = "<group>";
+		};
+		F8C6939A14FA660F001D820C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8C6939B14FA660F001D820C /* Venus-Info.plist */,
+				F8C6939C14FA6610001D820C /* InfoPlist.strings */,
+				F8C6939F14FA6610001D820C /* main.m */,
+				F8C693A114FA6610001D820C /* Venus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C6938C14FA660F001D820C /* Venus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C693AA14FA6610001D820C /* Build configuration list for PBXNativeTarget "Venus" */;
+			buildPhases = (
+				F8C6938914FA660F001D820C /* Sources */,
+				F8C6938A14FA660F001D820C /* Frameworks */,
+				F8C6938B14FA660F001D820C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venus;
+			productName = Venus;
+			productReference = F8C6938D14FA660F001D820C /* Venus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C6938414FA660F001D820C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F8C6938714FA660F001D820C /* Build configuration list for PBXProject "Venus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8C6938214FA660F001D820C;
+			productRefGroup = F8C6938E14FA660F001D820C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C6938C14FA660F001D820C /* Venus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C6938B14FA660F001D820C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C6939E14FA6610001D820C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C6938914FA660F001D820C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C693A014FA6610001D820C /* main.m in Sources */,
+				F8C693A414FA6610001D820C /* BRAAppDelegate.m in Sources */,
+				F8C693A714FA6610001D820C /* Venus.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8C6939C14FA6610001D820C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8C6939D14FA6610001D820C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8C693A814FA6610001D820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C693A914FA6610001D820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C693AB14FA6610001D820C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Venus/Venus-Prefix.pch";
+				INFOPLIST_FILE = "Venus/Venus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F8C693AC14FA6610001D820C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Venus/Venus-Prefix.pch";
+				INFOPLIST_FILE = "Venus/Venus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C6938714FA660F001D820C /* Build configuration list for PBXProject "Venus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C693A814FA6610001D820C /* Debug */,
+				F8C693A914FA6610001D820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C693AA14FA6610001D820C /* Build configuration list for PBXNativeTarget "Venus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C693AB14FA6610001D820C /* Debug */,
+				F8C693AC14FA6610001D820C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F8C693A514FA6610001D820C /* Venus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8C693A614FA6610001D820C /* Venus.xcdatamodel */,
+			);
+			currentVersion = F8C693A614FA6610001D820C /* Venus.xcdatamodel */;
+			path = Venus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F8C6938414FA660F001D820C /* Project object */;
+}
